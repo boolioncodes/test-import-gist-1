@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/xml/xml.min.js" integrity="sha512-LarNmzVokUmcA7aUDtqZ6oTS+YXmUKzpGdm8DxC46A6AHu+PQiYCUlwEGWidjVYMo/QXZMFMIadZtrkfApYp/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/htmlmixed/htmlmixed.min.js" integrity="sha512-HN6cn6mIWeFJFwRN9yetDAMSh+AK9myHF1X9GlSlKmThaat65342Yw8wL7ITuaJnPioG0SYG09gy0qd5+s777w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
-  <body style="background-color: %23235; color: %239AC; font-size: 200%; font-family: monospace;">
+  <body style="background-color: #292d3e; font-size: 200%; font-family: monospace;">
     <style>
       body {
         margin: 0;
@@ -26,7 +26,8 @@
       var myCodeMirror = CodeMirror(document.body, {
         mode: "htmlmixed",
         lineNumbers: true,
-        theme: "material-palenight"
+        theme: "material-palenight",
+        value: "<!--\n html+css+js\n code goes here \n-->"
       });
     </script>
   </body>
